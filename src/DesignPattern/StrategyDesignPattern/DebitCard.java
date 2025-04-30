@@ -6,3 +6,4 @@ public class DebitCard implements PaymentStrategy{
         System.out.println("Paid ₹" + amount + " using Debit Card");
     }
 }
+
