@@ -16,6 +16,5 @@ public interface StateI {
     public Item dispenseProduct(VendingMachine machine, int codeNumber) throws Exception;
 
     public List<Coin> refundFullMoney(VendingMachine machine) throws Exception;
-    public void updateInventory(VendingMachine machine,Item item,int codeNumber) throws Exception;
 
 }

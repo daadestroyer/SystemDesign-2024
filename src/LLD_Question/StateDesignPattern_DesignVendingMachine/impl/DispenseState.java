@@ -1,9 +1,10 @@
 package LLD_Question.StateDesignPattern_DesignVendingMachine.impl;
 
-import StateDesignPattern_DesignVendingMachine.Coin;
-import StateDesignPattern_DesignVendingMachine.Item;
-import StateDesignPattern_DesignVendingMachine.StateI;
-import StateDesignPattern_DesignVendingMachine.VendingMachine;
+
+import LLD_Question.StateDesignPattern_DesignVendingMachine.Coin;
+import LLD_Question.StateDesignPattern_DesignVendingMachine.Item;
+import LLD_Question.StateDesignPattern_DesignVendingMachine.StateI;
+import LLD_Question.StateDesignPattern_DesignVendingMachine.VendingMachine;
 
 import java.util.List;
 
@@ -62,8 +63,5 @@ public class DispenseState implements StateI {
         return null;
     }
 
-    @Override
-    public void updateInventory(VendingMachine machine, Item item, int codeNumber) {
 
-    }
 }

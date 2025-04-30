@@ -1,6 +1,8 @@
 package LLD_Question.StateDesignPattern_DesignVendingMachine;
 
-import StateDesignPattern_DesignVendingMachine.impl.IdleState;
+
+
+import LLD_Question.StateDesignPattern_DesignVendingMachine.impl.IdleState;
 
 import java.util.ArrayList;
 import java.util.List;

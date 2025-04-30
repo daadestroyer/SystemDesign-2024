@@ -5,10 +5,10 @@ public class Inventory {
 
     public Inventory(int itemCount) {
         this.inventory = new ItemShelf[itemCount];
-        initialEmptyInventory();
+        fittingTheShelfInVendingMachine();
     }
 
-    public void initialEmptyInventory() {
+    public void fittingTheShelfInVendingMachine() {
         int startCode = 101;
         for (int i = 0; i < inventory.length; i++) {
             ItemShelf itemShelf = new ItemShelf();
@@ -16,19 +16,6 @@ public class Inventory {
             itemShelf.setSoldOut(true);
             inventory[i] = itemShelf;
             startCode++;
-        }
-    }
-
-    public void addItem(Item item, int codeNumber) throws Exception {
-        for (ItemShelf itemShelf : inventory) {
-            if (itemShelf.getCode() == codeNumber) {
-                if (itemShelf.isSoldOut()) {
-                    itemShelf.item = item;
-                    itemShelf.setSoldOut(false);
-                } else {
-                    throw new Exception("Already item is present, you can not add item here !");
-                }
-            }
         }
     }
 

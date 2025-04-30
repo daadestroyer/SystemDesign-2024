@@ -1,9 +1,10 @@
 package LLD_Question.StateDesignPattern_DesignVendingMachine.impl;
 
-import StateDesignPattern_DesignVendingMachine.Coin;
-import StateDesignPattern_DesignVendingMachine.Item;
-import StateDesignPattern_DesignVendingMachine.StateI;
-import StateDesignPattern_DesignVendingMachine.VendingMachine;
+
+import LLD_Question.StateDesignPattern_DesignVendingMachine.Coin;
+import LLD_Question.StateDesignPattern_DesignVendingMachine.Item;
+import LLD_Question.StateDesignPattern_DesignVendingMachine.StateI;
+import LLD_Question.StateDesignPattern_DesignVendingMachine.VendingMachine;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,6 +21,7 @@ public class IdleState implements StateI {
 
     @Override
     public void clickOnInsertCoin(VendingMachine machine) {
+
         machine.setVendingMachineState(new HasMoneyState());
     }
 
@@ -36,7 +38,7 @@ public class IdleState implements StateI {
     }
 
     @Override
-    public void chooseProduct(VendingMachine machine,int codeNumber) throws Exception {
+    public void chooseProduct(VendingMachine machine, int codeNumber) throws Exception {
         throw new Exception("you can not choose Product in idle state");
 
     }
@@ -54,12 +56,9 @@ public class IdleState implements StateI {
     }
 
     @Override
-    public List<Coin> refundFullMoney(VendingMachine machine) throws Exception{
+    public List<Coin> refundFullMoney(VendingMachine machine) throws Exception {
         throw new Exception("you can not get refunded in idle state");
     }
 
-    @Override
-    public void updateInventory(VendingMachine machine, Item item, int codeNumber) throws Exception {
-        machine.getInventory().addItem(item, codeNumber);
-    }
+
 }
