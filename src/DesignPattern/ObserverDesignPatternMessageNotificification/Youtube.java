@@ -14,7 +14,8 @@ public class Youtube implements YoutubeService {
     }
 
     @Override
-    public void unsubscribe(NotificationObserver observer) {
+    public void unsubscribe(NotificationObserver observer,String name) {
+        System.out.println(name+" Unsubscribed the Channel");
         list.remove(observer);
     }
 
@@ -29,5 +30,4 @@ public class Youtube implements YoutubeService {
         System.out.println("Video uploaded");
         notifyObserver(message);
     }
-
 }

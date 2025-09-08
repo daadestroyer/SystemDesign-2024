@@ -10,5 +10,8 @@ public class App {
         youtube.subscribe(smsNotification);
 
         youtube.uploadVideo("Java tutorial");
+
+        youtube.unsubscribe(smsNotification,"Bob");
+        youtube.uploadVideo("what is java");
     }
 }

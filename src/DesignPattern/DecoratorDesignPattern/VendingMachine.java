@@ -1,5 +1,8 @@
 package DesignPattern.DecoratorDesignPattern;
 
+import DesignPattern.DecoratorDesignPattern.Decorator.MilkDecorator;
+import DesignPattern.DecoratorDesignPattern.Decorator.SugarDecorator;
+
 public class VendingMachine {
     public static void main(String[] args) {
         Coffee coffee = new SimpleCoffee();
