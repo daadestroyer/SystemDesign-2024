@@ -5,3 +5,5 @@ public class PlayingPieceO extends PlayingPiece{
         super(PieceType.O);
     }
 }
+
+
