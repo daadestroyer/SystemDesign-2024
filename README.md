@@ -1,4 +1,3 @@
-# LLD-2024
 ## Design Pattern
 1. [Singleton Design Pattern](https://github.com/daadestroyer/LLD-2024/tree/main/src/DesignPattern/SingletonDesignPattern_01)
 2. [Factory Design Pattern](https://github.com/daadestroyer/LLD-2024/tree/main/src/DesignPattern/FactoryDesignPattern_02)
