@@ -10,6 +10,7 @@
 9. [Observer Design Pattern Message Notification](https://github.com/daadestroyer/LLD-2024/tree/main/src/DesignPattern/ObserverDesignPatternMessageNotificification)
 10. [Observer Design Pattern NotifyME](https://github.com/daadestroyer/LLD-2024/tree/main/src/DesignPattern/ObserverDesignPatternNotifyMe)
 11. [Observer Design Pattern Weather Station](https://github.com/daadestroyer/LLD-2024/tree/main/src/DesignPattern/ObserverDesignPatternWeatherStation)
+12. [Proxy Design Pattern](https://github.com/daadestroyer/LLD-2024/tree/main/src/DesignPattern/ProxyDesignPattern)
 
 ## LLD Question
 
