@@ -7,6 +7,10 @@ import java.util.List;
 public class VechileInventoryManagement {
     List<Vechile> vechileList;
 
+    public VechileInventoryManagement(List<Vechile> vehicles) {
+        this.vechileList = vehicles;
+    }
+
     public void addVechile(Vechile vechile) {
         vechileList.add(vechile);
     }
