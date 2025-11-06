@@ -17,9 +17,7 @@ public class Store {
         return vechileInventoryManagement.getAllVechile();
     }
 
-
     //addVehicles, update vehicles, use inventory management to update those.
-
 
     public void setVehicles(List<Vechile> vehicles) {
         vechileInventoryManagement = new VechileInventoryManagement(vehicles);

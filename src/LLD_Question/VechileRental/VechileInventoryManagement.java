@@ -10,7 +10,6 @@ public class VechileInventoryManagement {
     public VechileInventoryManagement(List<Vechile> vehicles) {
         this.vechileList = vehicles;
     }
-
     public void addVechile(Vechile vechile) {
         vechileList.add(vechile);
     }
