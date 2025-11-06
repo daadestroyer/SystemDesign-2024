@@ -1,6 +1,4 @@
-package DesignPattern.StateDesignPattern.States;
-
-import DesignPattern.StateDesignPattern.MediaPlayer;
+package DesignPattern.StateDesignPattern;
 
 public class App {
     public static void main(String[] args) {
