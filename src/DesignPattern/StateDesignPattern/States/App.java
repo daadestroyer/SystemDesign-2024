@@ -10,5 +10,6 @@ public class App {
         mediaPlayer.play();
         mediaPlayer.stop();
         mediaPlayer.pause();
+        mediaPlayer.stop();
     }
 }
