@@ -1,4 +1,4 @@
-package LLD_Question.CarRental;
+package LLD_Question.VechileRental;
 
 import java.util.List;
 

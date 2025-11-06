@@ -1,4 +1,4 @@
-package LLD_Question.CarRental;
+package LLD_Question.VechileRental;
 
 public class Location {
     String address;

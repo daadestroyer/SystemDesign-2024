@@ -1,7 +1,7 @@
-package LLD_Question.CarRental.Product;
+package LLD_Question.VechileRental.Product;
 
-import LLD_Question.CarRental.enums.VechileStatus;
-import LLD_Question.CarRental.enums.VechileType;
+import LLD_Question.VechileRental.enums.VechileStatus;
+import LLD_Question.VechileRental.enums.VechileType;
 
 import java.util.Date;
 

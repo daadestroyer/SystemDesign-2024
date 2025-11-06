@@ -1,6 +1,6 @@
-package LLD_Question.CarRental;
+package LLD_Question.VechileRental;
 
-import LLD_Question.CarRental.enums.PaymentMode;
+import LLD_Question.VechileRental.enums.PaymentMode;
 
 import java.util.Date;
 

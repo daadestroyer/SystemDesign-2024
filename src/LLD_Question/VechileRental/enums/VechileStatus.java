@@ -1,4 +1,4 @@
-package LLD_Question.CarRental.enums;
+package LLD_Question.VechileRental.enums;
 
 public enum VechileStatus {
     ACTIVE,

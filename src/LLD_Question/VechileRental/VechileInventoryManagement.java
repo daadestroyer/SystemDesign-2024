@@ -1,6 +1,6 @@
-package LLD_Question.CarRental;
+package LLD_Question.VechileRental;
 
-import LLD_Question.CarRental.Product.Vechile;
+import LLD_Question.VechileRental.Product.Vechile;
 
 import java.util.List;
 
